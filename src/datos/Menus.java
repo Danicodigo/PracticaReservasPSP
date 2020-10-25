@@ -59,6 +59,7 @@ public class Menus {
 		}
 		System.out.println(linea);
 		
+		
 	}
 	
 	/**
@@ -71,7 +72,6 @@ public class Menus {
 		System.out.println("Primera clase");
 		System.out.println(linea);
 	}
-	
 	/**
 	 * Menu final.
 	 */

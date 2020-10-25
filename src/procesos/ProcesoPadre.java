@@ -50,8 +50,8 @@ public class ProcesoPadre {
 	 * @throws Exception the exception
 	 */
 	public static void main(String[] args) throws Exception {
-		runProcess("javac -cp src src/procesos/ProcessHijo.java");
-        Process process = Runtime.getRuntime().exec("java -cp src procesos/ProcessHijo");
+		runProcess("javac -cp src src/procesos/ProcesoHijo.java");
+        Process process = Runtime.getRuntime().exec("java -cp src procesos/ProcesoHijo");
 		InputStream out = process.getInputStream(); //configuramos la salida del proceso hijo
 		OutputStream in = process.getOutputStream(); //configuramos la entrada del proceso hijo
 
